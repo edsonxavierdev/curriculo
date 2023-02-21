@@ -1,0 +1,76 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;}
+
+.container-flex {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: radial-gradient(circle at 9.64% 78.26%, #9effa7 0, #81ffad 16.67%, #61ffb2 33.33%, #3cf2b5 50%, #00e4b6 66.67%, #00d7b8 83.33%, #00ccba 100%);
+}
+
+.dados-pessoais-e-contatos {
+    width: 50vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tamanho-maximo-dados-pessoais, .tamanho-maximo-dados-tecnicos  {
+    height: 85vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fotodeperfil, .dadospessoais, .contatos {
+    margin-bottom: 30px;
+}
+
+.fotodeperfil img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.dadospessoais {
+    border-left: 2px solid black;
+}
+
+.dadopessoal {
+    margin: 0 0 10px 10px;
+
+}
+
+.fotodeperfil img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+}
+
+/** **/
+.dados-tecnicos {
+    width: 50vw;
+}
+
+.tamanho-maximo-dados-tecnicos{
+    width: 500px;
+}
+
+.div-perfil-tecnico h1 {
+    text-transform: uppercase;
+}
+
+.lista-conhecimentos {
+    margin-left: 20px;
+}
